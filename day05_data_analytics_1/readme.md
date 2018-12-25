@@ -1,7 +1,9 @@
-# Title
-* Speaker: Firstname Lastname
-* Keywords: Body of Knowledge,Python, Variable, Control Flow, OOP, Module, Package
-
+# Data Analytics 1
+* Speaker: Sarun Gulyanon
+* Keywords: Pandas Visualization, Apache Zeppelin 
+----
+## Content
+----
 ## Requirements
   Please identify tools and software needed to be installed before the workshop
 ### Setting Up

@@ -1,7 +1,8 @@
-# Title
-* Speaker: Firstname Lastname
-* Keywords: Body of Knowledge,Python, Variable, Control Flow, OOP, Module, Package
+# ETL 1
+* Speaker: Wasit Limprasert
+* Keywords: Import files, Pandas and Dask
 
+----
 ## Requirements
   Please identify tools and software needed to be installed before the workshop
 ### Setting Up

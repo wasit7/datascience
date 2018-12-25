@@ -1,7 +1,8 @@
-# Title
-* Speaker: Firstname Lastname
-* Keywords: Body of Knowledge,Python, Variable, Control Flow, OOP, Module, Package
+# Machine Learning 2
+* Speaker: Wasit Limprasert
+* Keywords: Root Cause Analysis, Time series Prediction, Anomaly detection and Planning
 
+----
 ## Requirements
   Please identify tools and software needed to be installed before the workshop
 ### Setting Up

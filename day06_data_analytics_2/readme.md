@@ -1,7 +1,10 @@
-# Title
-* Speaker: Firstname Lastname
-* Keywords: Body of Knowledge,Python, Variable, Control Flow, OOP, Module, Package
-
+# Data Analytics 2
+* Speaker: Sarun Gulyanon
+* Keywords: Knowledge Discovery
+ 
+----
+## Content
+----
 ## Requirements
   Please identify tools and software needed to be installed before the workshop
 ### Setting Up
