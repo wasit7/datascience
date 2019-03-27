@@ -11,7 +11,7 @@ docker-compose up -d
 ```
 
 Connect to localhost
-Port 5432 ?????? DB ????
+Port 5432 สำหรับ db ครับ 
 User: postgres
 Password: password
 
@@ -20,3 +20,15 @@ Password: password
 ```
 docker-compose down
 ```
+
+## Add External Data
+Put files in `data` folder. These files will be included in the container. Use `docker-compose exec <name-in-yml> sh` to enter shell inside the container.
+Create database, type: `psql -U postgres -W -c "CREATE DATABASE \"Adventureworks\";"`
+Import data, type: `psql -d Adventureworks < install.sql`
+
+## Access Adminer
+Go to localhost port 8080
+Enter 
+Database: postgres
+User: postgres
+Password: password
