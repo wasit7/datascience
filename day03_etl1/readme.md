@@ -1,6 +1,6 @@
 # ETL 1
 * Speaker: Wasit Limprasert
-* Keywords: Import files, Pandas and Dask
+* Keywords: Import files, Pandas, SQL, NoSQL
 
 ----
 ## Requirements
