@@ -1,0 +1,1 @@
+docker-compose exec cassandra cqlsh --username cassandra --password cassandra -e "CREATE KEYSPACE IF NOT EXISTS bem WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };"cassandra_1
