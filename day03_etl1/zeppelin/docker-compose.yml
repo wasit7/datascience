@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  zeppelin:
+    image: apache/zeppelin:0.8.0
+    ports:
+      - 8088:8080
+    volumes:
+      - ./logs:/zeppelin/logs
+      - ./notebook:/zeppelin/notebook
+      - ./conf:/zeppelin/conf
+      - ./helium:/zeppelin/helium
+    environment:
+      - ZEPPELIN_LOG_DIR=/zeppelin/logs
+      - ZEPPELIN_NOTEBOOK_DIR=/zeppelin/notebook
+      - ZEPPELIN_HELIUM_LOCALREGISTRY_DEFAULT=/zeppelin/helium
+    restart: always
