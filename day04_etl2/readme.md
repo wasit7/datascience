@@ -1,4 +1,4 @@
-# ETL 2
+# day04_etl2
 * Speaker: Wasit Limprasert
 # Keywords
 * Hadoop and Big Data
@@ -9,7 +9,7 @@
   * 02 PostgreSQL
   * 03 Cassandra
   * 04 Credit Card Data
-* slide: https://docs.google.com/presentation/d/1kyW32eDvXy0z9NmMQALxVdype7IDJA_rkIIHvQ6SxCI/edit?usp=sharing
+* slide: https://docs.google.com/presentation/d/17soL73Moi6sQEGPutmawdGfOE9yvjwDc_5S7b3visVk/edit?usp=sharing
 ----
 ## Requirements
   Please identify tools and software needed to be installed before the workshop
