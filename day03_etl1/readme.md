@@ -1,6 +1,6 @@
 # ETL 1
 * Speaker: Wasit Limprasert
-* Keywords: Import files, Pandas, SQL, ETL with Pandas
+* Keywords: Import files, Pandas, SQL, ETL with Pandas, Data Transformation, Data Cleansing
 * slide: https://docs.google.com/presentation/d/1kyW32eDvXy0z9NmMQALxVdype7IDJA_rkIIHvQ6SxCI/edit?usp=sharing
 ----
 ## Requirements
