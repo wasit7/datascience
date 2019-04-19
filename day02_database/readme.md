@@ -26,5 +26,4 @@
 
 ### Setting Up
   Installation procedure, please use docker
-### Data
-  location to the sample data
+* Docker compose file (.yml) in "postgresql-docker" folder

@@ -1,4 +1,4 @@
-# Week 6 Predictive Analytics 2
+# Week 6 Data Analytics 2
 * Speaker: Sarun Gulyanon
 * Keywords: ANNs, Deep learning
 * [Slide](https://docs.google.com/presentation/d/1enROlfKtbbEKms-G9ezvOJL1F3bY9304VnxzdNidV88/edit?usp=sharing)
@@ -18,16 +18,11 @@
 * [Deep Learning for Digit Classification](https://colab.research.google.com/drive/1W3jaJbo4OMQbahqB6cgjRQvWpsqcAS02)
 * [TensorBoard in Google Colab](https://colab.research.google.com/drive/1tdi-3kJAOsxDMsrwWnaMPhlb2jxRzgIF)
 * [Deep Learning for Face Recognition](https://colab.research.google.com/drive/13fXgFt9Mqo4g-Dx6u_HeZa4bs2JHu2Lq)
+* [Text Classification Using Neural Networks](https://colab.research.google.com/drive/12G1aFjZhgawYT_aXI0FQyAYPWzysU0Vy)
 
 ----
 ## Requirements
   Please identify tools and software needed to be installed before the workshop
 * Tensorflow
 * Keras
-* Pytorch
 * Scikit-Learn
-
-### Setting Up
-  Installation procedure, please use docker
-### Data
-  location to the sample data
