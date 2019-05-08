@@ -19,9 +19,9 @@
         socket.emit('channel', { my: 'data' });
       }
 
-      socket.on('channel', function(msg){
-        console.log('message: ' + msg);
-        console.log('socket.on()');
+      socket.on('message', function(msg){
+        //console.log('message: ' + msg);
+        console.log('socket.on()'+'message: ' + JSON.stringify(msg));
       });
     </script>
   </body>
