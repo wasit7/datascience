@@ -8,15 +8,17 @@ async def index(request):
     with open('index.html') as f:
         return web.Response(text=f.read(), content_type='text/html')
 
-@sio.on('channel')
+async def js(request):
+    return web.FileResponse('./socket.io.js')
+
+@sio.on('channel_a')
 async def print_message(sid, message):
     print("Socket ID: " , sid)
     print(type(message),message)
-    # await a successful emit of our reversed message
-    # back to the client
-    await sio.emit('message', message)
+    await sio.emit('channel_b', message)
 
 app.router.add_get('/', index)
+app.router.add_get('/socket.io.js', js)
 
 if __name__ == '__main__':
     web.run_app(app, host='0.0.0.0', port=8888)

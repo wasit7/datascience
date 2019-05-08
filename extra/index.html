@@ -1,28 +1,19 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
+<html>
   <body>
-    <button onClick="send()">Hit Me</button>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <button onClick="send()">click me</button>
+    <script src="http://localhost:8888/socket.io.js"></script>
     <script>
-      var socket = io("http://localhost:8888");
-
-      function send() {
-        console.log('send()');
-        socket.emit('channel', { my: 'data' });
-      }
-
-      socket.on('message', function(msg){
-        //console.log('message: ' + msg);
-        console.log('socket.on()'+'message: ' + JSON.stringify(msg));
-      });
+        var socket = io("http://localhost:8888");
+        function send() {
+            msg_a="Hello World!!"
+            console.log('channel_a: ' + msg_a);
+            socket.emit('channel_a', msg_a);
+        }
+        socket.on('channel_b', function(msg_b){
+            console.log('channel_b: '+msg_b);
+        });
     </script>
   </body>
 </html>
