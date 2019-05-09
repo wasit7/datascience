@@ -1,5 +1,5 @@
 # BEM Workshop 2019
-* Speaker: Wasit Limprasert, Sarun Gulyanon
+* Speaker: Dr. Wasit Limprasert, Dr. Sarun Gulyanon
 * Keywords: Python, SQL, ETL, Data Analytics, Machine Learning
 
 -----
@@ -12,7 +12,7 @@
 | 2 | Database | 6 |
 | 3-4 | ETL | 12 |
 | 5-6 | Data Analytics | 12 |
-| 7-8 | Machine Learning | 12 |
+| 7-8 | Hackathon | 12 |
 
 -----
 
