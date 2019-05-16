@@ -1,4 +1,4 @@
-# Week 6 Data Analytics 2
+# Day 6: Data Analytics 2
 * Speaker: Sarun Gulyanon
 * Keywords: ANNs, Deep learning
 * [Slide](https://docs.google.com/presentation/d/1enROlfKtbbEKms-G9ezvOJL1F3bY9304VnxzdNidV88/edit?usp=sharing)

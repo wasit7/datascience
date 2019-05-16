@@ -1,4 +1,4 @@
-# Python Programming
+# Day 1: Python Programming
 * Speaker: Sarun Gulyanon
 * Keywords: Basic Data Science, Rapid Miner, Python, Variable, Control Flow, OOP, Module, Package
 * [Slide](https://docs.google.com/presentation/d/1z1mqB9_kJVP6TbP-AEvNntk3JWSt-NbDYzByqVNibiM/edit?usp=sharing)

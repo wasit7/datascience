@@ -1,4 +1,4 @@
-# Database
+# Day 2: Database
 * Speaker: Sarun Gulyanon
 * Keywords: Relational Database, Basic SQL query, PostgreSQL, ORM, Docker, NoSQL
 * [Slide](https://docs.google.com/presentation/d/1lSUka-0X6K4F6DyuleqS0kt0vlX-xWBioWx4HgPJm9M/edit?usp=sharing)

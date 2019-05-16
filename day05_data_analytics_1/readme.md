@@ -1,4 +1,4 @@
-# Week 5 Data Analytics 1
+# Day 5: Data Analytics 1
 * Speaker: Sarun Gulyanon
 * Keywords: AI, Linear Regression, Logistic Regression, SVM, Decision Tree
 * [Slide](https://docs.google.com/presentation/d/1ziID-mRar5FnrQNOq-RIHqreYvNBOMs1XdqH6qr3SnE/edit?usp=sharing)
