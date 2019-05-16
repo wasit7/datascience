@@ -13,6 +13,7 @@
 | 3-4 | ETL | 12 |
 | 5-6 | Data Analytics | 12 |
 | 7-8 | Hackathon | 12 |
+| 9 | Big Data Infrastructure | 6 |
 
 -----
 
@@ -23,6 +24,7 @@
 * [Dask](http://docs.dask.org/en/latest/)
 * [Apache Zeppelin](https://zeppelin.apache.org/)
 * [scikit-learn](https://scikit-learn.org/)
+* [Docker](https://www.docker.com/)
   Please identify tools and software needed to be installed before the workshop
 ### Setting Up
   Installation procedure, please use docker
