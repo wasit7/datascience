@@ -6,7 +6,7 @@
 
 ## Time Table
 
-| Phase 1 |||
+### Phase 1 
 | Day | Title | Hours |
 | ------| ------ | ------ |
 | 1 | Python Programming | 6 |
@@ -15,14 +15,13 @@
 | 5-6 | Data Analytics | 12 |
 | 7-8 | Hackathon | 12 |
 
-| Phase 2 |||
+### Phase 2
 | Day | Title | Hours |
 | ------| ------ | ------ |
 | 1 | Big Data Infrastructure | 6 |
 | 2 | Data Security | 6 |
 | 3-4 | Hadoop and Big Data | 12 | 
 | 5 | Authentication, API | 12 | 
-
 
 -----
 
