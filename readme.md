@@ -21,7 +21,7 @@
 | 1 | Big Data Infrastructure | 6 |
 | 2 | Data Security | 6 |
 | 3-4 | Hadoop and Big Data | 12 | 
-| 5 | Authentication, API | 12 | 
+| 5 | Authentication, API | 6 | 
 
 -----
 
