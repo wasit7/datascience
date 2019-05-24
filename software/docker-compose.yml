@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  jupyterhub:
+    build:  ./jupyter
+    ports:
+      - 8888:8000
+    volumes:
+      - ./volumes/jupyter/home:/home
+      - ./volumes/jupyter/data:/data
+    networks:
+      - bem
+    restart: always
+
+  zeppelin:
+    image: apache/zeppelin:0.8.0
+    ports:
+      - 8088:8080
+    volumes:
+      - ./volumes/logs:/zeppelin/logs
+      - ./volumes/notebook:/zeppelin/notebook
+      - ./zeppelin/conf:/zeppelin/conf
+      - ./volumes/helium:/zeppelin/helium
+    environment:
+      - ZEPPELIN_LOG_DIR=/zeppelin/logs
+      - ZEPPELIN_NOTEBOOK_DIR=/zeppelin/notebook
+      - ZEPPELIN_HELIUM_LOCALREGISTRY_DEFAULT=/zeppelin/helium
+    networks:
+      - bem
+    restart: always
+
+  postgres:
+    build: ./postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./volumes/postgres:/var/lib/postgresql/data
+    networks:
+      - bem
+    restart: always
+
+networks:
+    bem:
+        external: true
